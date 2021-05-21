@@ -1,6 +1,6 @@
 # FractionsChallenges
 
-Write a command line program i that will take operations on fractions as an input and produce a fractional result.
+Write a command line program  that will take operations on fractions as an input and produce a fractional result.
 
 ## Prerequisites
 
