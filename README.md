@@ -9,7 +9,7 @@ Python 3.7 or higher
 
 ## Installation:
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the dependencies 
 
 ```bash
 pip install -r requirements.txt
@@ -28,7 +28,7 @@ Run unit test and show coverage report from terminal | python3 runner.py -i unit
 
 
 ## Notes:
-If your path variable for calling python is differnt than python3 the code need to be updated on runner.py line 23 and change for yours (py, python, etc..), no support for windows powershell for display the report for the moment.
+If your path variable for calling python is differnt than "python3" the code need to be updated on runner.py line 23 and change for yours (py, python, etc..), no support for windows powershell for display the report for the moment.
 
 
 ## Deployment process:
