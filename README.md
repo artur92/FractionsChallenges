@@ -28,7 +28,7 @@ Run unit test and show coverage report from terminal | python3 runner.py -i unit
 
 
 ## Notes:
-If your path variable for calling python is different than "python3" the code needs to be updated on runner.py line 22 and change for yours (py, python, etc..), no support for windows .ps1 or bat for automatically open the html report this has to be done manually after executing unit_html command htmlcov -> index.html.
+If your path variable for calling python is different than "python3" the code needs to be updated on runner.py line 22 and change for yours (py, python, etc..), no support for windows .ps1 or .bat for automatically open the html report this has to be done manually after executing unit_html command htmlcov -> index.html.
 
 
 ## Deployment process:
