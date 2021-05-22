@@ -25,6 +25,7 @@ Execute the CLI application   |  python3 runner.py -i '1/2 + 1/4 (Or any other o
 Run e2e tests  | python3 runner.py -i e2e  
 Run unit test and open the html coverage | python3 runner.py -i unit_html  
 Run unit test and show coverage report from terminal | python3 runner.py -i unit_html 
+Get help | python3 runner.py -h
 
 
 ## Notes:
