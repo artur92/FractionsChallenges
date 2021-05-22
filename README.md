@@ -28,10 +28,10 @@ Run unit test and show coverage report from terminal | python3 runner.py -i unit
 
 
 ## Notes:
-If your path variable for calling python is differnt than "python3" the code need to be updated on runner.py line 23 and change for yours (py, python, etc..), no support for windows powershell for display the report for the moment.
+If your path variable for calling python is different than "python3" the code needs to be updated on runner.py line 22 and change for yours (py, python, etc..), no support for windows .ps1 or bat for automatically open the html report this has to be done manually after executing unit_html command htmlcov -> index.html.
 
 
 ## Deployment process:
 
-For the deployment of this project, we must create a pipeline in any ci/cd tools such as (Gitlab CI/cd, TravisCi, Jenkins, etc..) and establish different stages inside the pipeline: starting with a lint, then the unit tests, e2e test and finally the deployment process where we can add the necessary steps to publish our application in a package manager such as ``` pip ``` or in any other plataform where we want our application. 
+For the deployment of this project, we must create a pipeline in any ci/cd tools such as (Gitlab CI/CD, TravisCi, Jenkins, etc..) and establish different stages inside the pipeline: starting with a lint, then the unit tests, integration tests and finally the deployment process where we can add the necessary steps to publish our application in a package manager such as ``` pip ``` or in any other plataform where we want our application. 
 
