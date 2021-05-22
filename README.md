@@ -22,7 +22,7 @@ For this project different instruction had been added with the goal of running e
 Action | Command Line Instruction 
 ----------------- | -------------
 Execute the CLI application   |  python3 runner.py -i '1/2 + 1/4 (Or any other operation under the challenge scope)'  
-Run e2e tests  | python3 runner.py -i e2e  
+Run e2e tests  | python3 runner.py -i integration  
 Run unit test and open the html coverage | python3 runner.py -i unit_html  
 Run unit test and show coverage report from terminal | python3 runner.py -i unit_html 
 Get help | python3 runner.py -h
