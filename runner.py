@@ -19,7 +19,7 @@ elif input_value == 'e2e':
     command = e2e_test
 
 else:
-    command = f"python3 main.py -i '{input_value}'"
+    command = f'python3 main.py -i "{input_value}"'
 
 os.system(command)
 if open_html:
