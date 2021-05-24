@@ -19,7 +19,7 @@ elif input_value == 'integration':
     command = integration_test
 
 else:
-    command = f"python3 main.py -i '{input_value}'"
+    command = f'python3 main.py -i "{input_value}"'
 
 os.system(command)
 if open_html:
