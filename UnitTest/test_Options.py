@@ -4,7 +4,7 @@ import unittest
 from Package.Options import Operations
 
 
-class TestGroup(unittest.TestCase):
+class TestOptions(unittest.TestCase):
     operator = Operations()
 
     def test_input_validation_valid_data(self):

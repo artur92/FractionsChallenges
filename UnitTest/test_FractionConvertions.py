@@ -4,7 +4,7 @@ import unittest
 from Package.FractionConvertions import FractionConversions
 
 
-class TestGroup(unittest.TestCase):
+class TestFractionConversions(unittest.TestCase):
     fraction_conversions = FractionConversions()
 
     def test_convert_mixed_improper(self):

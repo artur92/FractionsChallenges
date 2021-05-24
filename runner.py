@@ -4,7 +4,7 @@ from CommonMethods.Parser import InputParser
 command = ''
 unit_test_html_report = 'pytest UnitTest/ -v --cov=Package --cov-report=html'
 unit_test_cli_coverage_report = 'pytest UnitTest/ -v --cov=Package'
-e2e_test = 'pytest E2E/ -v'
+integration_test = 'pytest Integration/ -v'
 input_value = InputParser().parser_input()
 open_html = False
 
@@ -15,11 +15,11 @@ if input_value == 'unit_html':
 elif input_value == 'unit_cli':
     command = unit_test_cli_coverage_report
 
-elif input_value == 'e2e':
-    command = e2e_test
+elif input_value == 'integration':
+    command = integration_test
 
 else:
-    command = f'python3 main.py -i "{input_value}"'
+    command = f"python3 main.py -i '{input_value}'"
 
 os.system(command)
 if open_html:
